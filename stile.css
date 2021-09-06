@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+body{
+  background-color: #ffebeb;
+  margin: 0%;
+  font-family: 'Hina Mincho', serif;
+}
+
+::-webkit-scrollbar{
+	width:10px;
+	-webkit-border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb{
+	-webkit-border-radius:10px;
+}
+
+#title{
+	margin-top: -5%;
+	text-align: center;
+	font-size:200%;
+}
+
+/*MENU*/
+
+ul {
+	margin-left: -2%;
+}
+li {
+	list-style: none;
+	text-decoration: none;
+}
+li a {
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+ 
+/*singola cartolina*/
+.numeroC{
+	margin-right:86%;
+	margin-left:1%;
+	margin-top:3%;
+	font-size: 1.2em;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+h2 {
+	margin-top:2%;
+	margin-left: 1%;
+	font-size:250%;
+}
+
+h3 {
+	text-align:center;
+	font-size:170%;
+}
+
+#fronte{
+	text-align:center;
+	font-size: 110%;
+}
+
+.generaleCart {
+	
+}
+
+.box p{
+	margin-bottom:1%;
+	overflow:hidden;
+	text-align:center;
+}
+
+.info {
+	margin-bottom:0%;
+	margin-top:3%;
+	overflow:hidden;
+	padding:2%;
+	margin-left:12%;
+	margin-right:12%;
+	border:2px solid black;
+}
+
+.column {
+	float:left;
+	width:50%;
+	text-align:center;
+	font-size:110%;
+}
+
+img{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width: 47%;
+}
+
+#INFO{
+	text-align:center;
+}
+
+#licence{
+	margin-top:15%;
+	margin-bottom:4%;
+	margin-right:5%;
+	text-align:right;
+}
+
+.cartolina{
+	text-align: center;
+}
+
+.idno_mess{
+	font-size: 110%;
+}
+	
+.mex{
+	margin-top: -25%;
+	float:left;
+	margin-left: 3%;
+	margin-right:80%;
+	font-size: 120%;
+}
+
+.stampe {
+	margin-top:-16%;
+	float:left;
+	margin-left: 4%;
+	margin-right:80%;
+	font-size: 120%;
+}
+
+.ind{
+	text-align: left;
+	margin-top: -22%;
+	float: right;
+	margin-right: 4%;
+	margin-left: 76%;
+	font-size: 122%;
+}
+
+.sta {
+	text-align: center;
+	margin-top: 2%;
+	font-size: 122%;
+}
+
+.column1 {
+	margin-left:12%;
+	font-size:110%;
+}
+

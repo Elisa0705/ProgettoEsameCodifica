@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Elisa Gulino, matricola: 582148 - Progetto per Codifica di Testi -->
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Cartoline di Oliva Turtura</title>
+                <!-- TRASCRITTORE -->
+                <respStmt>
+                    <resp>Trascritto da: </resp>
+                    <name xml:id="EG">Elisa Gulino</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza: </resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di Informatica Umanistica, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da: </resp>
+                    <name ref="#EG">Elisa Gulino</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                   
+                    <resp>Compilatore: </resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico: </resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile: </resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2021">2021</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia, </country>
+                        <settlement ref="SP">La Spezia (SP)-</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                            <addName type="alias">(Giovannino)</addName>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="AT">
+                        <persName>
+                            <forename>Antonietta</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="CF">
+                        <persName>
+                            <forename>C.</forename>
+                            <surname>Facchinetti</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="MB">
+                        <persName>
+                            <forename>Massimo</forename>
+                            <surname>Buti</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="EB">
+                        <persName>
+                            <forename>Enrichetta</forename>
+                            <surname>Buti</surname>
+                        </persName>
+                    </person>
+                    
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Castiglione di Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="FC">
+                        <placeName>Forlì</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Forlì</district>
+                        <district type="provincia">FC</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="FE">
+                        <placeName>Ferrara</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ferrara</district>
+                        <district type="provincia">FE</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="FI">
+                        <placeName>Firenze</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Firenze</district>
+                        <district type="provincia">FI</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+                
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <!--CARTOLINA 41 -->
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                    <title>Cartolina da Forlì</title>
+                    <!-- TRASCRITTORE -->
+                    <respStmt>
+                        <resp>transcritto da</resp>
+                        <name ref="#EG">Elisa Gulino</name>
+                    </respStmt>
+                    
+                    <!-- ENTE DI APPARTENENZA -->
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="SP">Comune della Spezia</name>
+                    </respStmt>
+                    
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                        <!-- COMPILAZIONE -->
+                        <date>2018</date>
+                    </edition>
+                    
+                    <!-- NOME COMPILATORE -->
+                    <respStmt>
+                        <resp>codificato da</resp>
+                        <name ref="#EG">Elisa Gulino</name>
+                    </respStmt>
+                    
+                    <!-- REFERENTE SCIENTIFICO -->
+                    <respStmt>
+                    
+                        <resp>Compilatore</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2021">2021</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <bibl>
+                        <!-- TITOLO -->
+                        <title type="desc">[Donna fra fiori colorati]</title>
+                        <!-- CRONOLOGIA -->
+                        <date>1914</date>
+                        <idno>729-4</idno>
+                    </bibl>
+                    <msDesc>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <!-- COLLOCAZIONE SPECIFICA -->
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_041_001/002</idno>
+                        </msIdentifier>
+                        
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <!-- DESCRIZIONE -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <!-- MATERIALI -->
+                                        <material>Carta</material>
+                                        <!-- DIMENSIONE -->
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp>francobollo - Regno d'Italia</stamp>
+                                    </support>
+                                    
+                                    <!-- CONSERVAZIONE -->
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                
+                        
+                    </msDesc>
+                    
+                    <!-- NOMI -->
+                    
+                    <listPerson>
+                        <person>
+                            <persName ref="#OT"></persName>
+                        </person>
+                        <person>
+                            <persName ref="#MB"></persName>
+                        </person>
+                        <person>
+                            <persName ref="#EB"></persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPlace>
+                        <place>
+                            <placeName ref="#FC"></placeName>
+                        </place>
+                        <place>
+                            <placeName ref="#RV"></placeName>
+                        </place>
+                    </listPlace>
+                    
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"/>
+                        <placeName ref="#FC">Forlì</placeName>
+                        <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                        <date type="writing" when="1914-09-28">1914/09/28</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT">Oliva Turtura</persName>
+                        <placeName ref="#RV">Castiglione di Ravenna</placeName>
+                    </correspAction>
+                </correspDesc>
+                
+                <textClass>
+                    <keywords>
+                        <!-- soggettario -->
+                        <!-- tipologia -->
+                        <!-- descrizione -->
+                        <term>Cartolina </term>
+                        <term>Cartolina Artistica </term>
+                        <term>Donna circondata da fiori colorati</term>
+                    </keywords>
+                </textClass>
+                
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                </langUsage>
+            </profileDesc>
+            
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="C041F">
+                <graphic url='images/7694-041F.jpg' width='1058px' height='1658px' />
+                <zone ulx="579" uly="1416" lrx="980" lry="1566" xml:id="C041Fs"/>
+            </surface>
+            <surface xml:id="C041R">
+                <graphic url='images/7694-041R.jpg' width='1655px' height='1064px' />
+                <zone ulx="51" uly="29" lrx="120" lry="102" xml:id="C041number"/>
+                <zone ulx="60" uly="850" lrx="439" lry="984" xml:id="C041luogodata"/>
+                <zone points = ' 85,576 294,884 768,557 801,131 ' xml:id="C041msg"/>
+                <zone ulx="803" uly="1012" lrx="896" lry="1040" xml:id="C041numdown"/>
+                <zone ulx="895" uly="69" lrx="1265" lry="442" xml:id="C041timbro1"/>
+                <zone ulx="1257" uly="100" lrx="1604" lry="430" xml:id="C041timbro2"/>
+                <zone ulx="1379" uly="42" lrx="1649" lry="347" xml:id="C041franco"/>
+                <zone ulx="867" uly="213" lrx="1476" lry="506" xml:id="C041indirizzodest"/>
+                <zone ulx="865" uly="12" lrx="1649" lry="1057" xml:id="C041destinatario"/>
+                <zone points = ' 94,571 183,712 882,198 794,82 ' xml:id="C041msgriga1"/>
+                <zone points = ' 324,572 386,655 651,494 575,405 ' xml:id="C041msgriga2"/>
+                <zone points = ' 200,743 318,855 708,558 625,464 ' xml:id="C041msgriga3"/>
+                <zone ulx="879" uly="478" lrx="1517" lry="648" xml:id="C041destriga1"/>
+                <zone ulx="918" uly="596" lrx="1553" lry="724" xml:id="C041destriga2"/>
+                <zone ulx="924" uly="698" lrx="1622" lry="795" xml:id="C041destriga3"/>
+                <zone ulx="856" uly="755" lrx="1650" lry="920" xml:id="C041destriga4"/>
+                <zone ulx="862" uly="867" lrx="1639" lry="1045" xml:id="C041destriga5"/>
+            </surface>
+        </facsimile>
+
+        <!-- DEFINIZIONE -->
+        <text type="cartolina" xml:id="C041">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div facs="#C041F" type="fronte">
+                    <figure>
+                        <gap reason="illegible" extent="1 word"></gap>
+                        <graphic url='images/7694-041F.jpg' />
+                        <figDesc>Donna circondata da fiori</figDesc>
+                        <head>Donna fra fiori colorati</head>
+                    </figure>
+                </div>
+                <div facs="#C041R" type="retro">
+                    <div type="message" facs="#C041msg">
+                        <opener>
+                            <lb facs="#C041msgriga1"></lb><s>Rispettosamente la saluto</s>
+                            <lb facs="#C041msgriga2"></lb><w><sic>devuto </sic><corr>(devoto)</corr></w>
+                        </opener>
+                        <p></p>
+                        <signed>
+                            <lb facs="#C041msgriga3"></lb><persName ref="#MB">Massimo Buti</persName>
+                        </signed>
+                        <closer>
+                            <lb facs="#C041luogodata"></lb><placeName ref="#FC">Forlì</placeName>
+                            <date when="1914-09-28">28-IX-14</date>
+                        </closer>
+                    </div>
+                    <div type="destination" facs="#C041destinatario">
+                        <p>
+                            <!-- stamps -->
+                            <stamp type="postmark" facs="#C041timbro1"> 
+                                <mentioned>
+                                    <placeName ref="#FC">Forlì</placeName>
+                                    <s>arrivi e partenze</s>
+                                </mentioned>
+                                <date when="1914-09-28">1914/09/28,</date>
+                            </stamp>
+                            <stamp type="postmark" facs="#C041timbro2"> 
+                                <mentioned>
+                                    <placeName ref="#FC">Forlì</placeName>
+                                    <s>arrivi e partenze</s>
+                                </mentioned>
+                                <date when="1914-09-28">1914/09/28,</date>
+                            </stamp>
+                            <stamp type="postage" facs="#C041franco">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                        </p>
+                        <p>
+                            <address>
+                                <lb facs="#C041indirizzodest"></lb><addrLine><placeName ref="#RV">Castiglione di Ravenna</placeName></addrLine>
+                                <lb facs="#C041destriga1"></lb><addrLine> Per la esimia <choice><abbr>Sig.</abbr><abbr>na</abbr><expan>Signorina</expan></choice></addrLine>
+                                <lb facs="#C041destriga2"></lb><addrLine><persName ref="#OT"> Oliva </persName><c>X</c><pc force="weak">........</pc></addrLine>
+                                <lb facs="#C041destriga3"></lb><addrLine>maestra elementare</addrLine>
+                                <lb facs="#C041destriga4"></lb>
+                                    <addrLine>
+                                        <pc force="weak">(</pc>
+                                            presso la <choice><abbr>Sig.</abbr><abbr>na </abbr><expan>Signorina</expan></choice><persName ref="#EB">Enrichetta Buti</persName>
+                                        <pc force="weak">)</pc>
+                                    </addrLine>
+                                <lb facs="#C041destriga5"></lb><addrLine><add>Castiglione</add></addrLine>
+                            </address>
+                        </p>
+                        <p>
+                            <idno facs="#C041number">41 </idno>
+                            <idno facs="#C041numdown"> 729-4</idno>                          
+                        </p>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+
+    <!--CARTOLINA 124 -->
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                    <title>Cartolina da Modena</title>
+                    <!-- TRASCRITTORE -->
+                    <respStmt>
+                        <resp>transcritto da</resp>
+                        <name ref="#EG">Elisa Gulino</name>
+                    </respStmt>
+                    
+                    <!-- ENTE DI APPARTENENZA -->
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="SP">Comune della Spezia</name>
+                    </respStmt>
+                    
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition>Studenti di Storia Pubblica Digitale, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                        <!-- COMPILAZIONE -->
+                        <date>2018</date>
+                    </edition>
+                    
+                    <!-- NOME COMPILATORE -->
+                    <respStmt>
+                        <resp>codificato da</resp>
+                        <name ref="#EG">Elisa Gulino</name>
+                    </respStmt>
+                    
+                    <!-- REFERENTE SCIENTIFICO -->
+                    <respStmt>
+                    
+                        <resp>Compilatore</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2021">2021</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <bibl>
+                        <!-- TITOLO -->
+                        <title type="desc">Primavera in fiore</title>
+                        <!-- CRONOLOGIA-->
+                        <date>1917</date>
+                        <idno>619-1</idno>
+                    </bibl>
+                    <msDesc>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <!-- COLLOCAZIONE SPECIFICA -->
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_124_001/002</idno>
+                        </msIdentifier>
+                        
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <!-- DESCRIZIONE -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <!-- MATERIALI -->
+                                        <material>Carta</material>
+                                        <!-- DIMENSIONE -->
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp>francobollo - Regno d'Italia</stamp>
+                                    </support>
+                                    
+                                    <!-- CONSERVAZIONE -->
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                
+                        
+                    </msDesc>
+                    
+                    <!-- NOMI -->
+                    
+                    <listPerson>
+                        <person>
+                            <persName ref="#AT"></persName>
+                        </person>
+                        <person>
+                            <persName ref="#GC"></persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPlace>
+                        <place>
+                            <placeName ref="#MO"></placeName>
+                        </place>
+                        <place>
+                            <placeName ref="#RV"></placeName>
+                        </place>
+                    </listPlace>
+                    
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"/>
+                        <placeName ref="#MO">Modena</placeName>
+                        <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                        <date type="writing" when="1917-07-28">28/07/1917</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#AT">Antonietta Turtura</persName>
+                        <placeName ref="#RV">Ravenna</placeName>
+                    </correspAction>
+                </correspDesc>
+                
+                <textClass>
+                    <keywords>
+                        <!-- soggettario -->
+                        <!-- tipologia -->
+                        <!-- descrizione -->
+                        <term>Cartolina </term>
+                        <term>Cartolina Artistica </term>
+                        <term>Due donne con un bambino in una stanza cosparsa di fiori primaverili</term>
+                    </keywords>
+                </textClass>
+                
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                </langUsage>
+            </profileDesc>
+            
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="C124F">
+                <graphic url='images/7694-124F.jpg' width='1082px' height='1675px' />
+                <zone ulx="4" uly="3" lrx="1080" lry="1673" />
+            </surface>
+            <surface xml:id="C124R">
+                <graphic url='images/7694-124R.jpg' width='1636px' height='1046px' />
+                <zone ulx="111" uly="34" lrx="736" lry="912" xml:id="C124msg"/>
+                <zone ulx="789" uly="343" lrx="1628" lry="1031" xml:id="C124destinatario"/>
+                <zone ulx="728" uly="990" lrx="807" lry="1031" xml:id="C124numdown"/>
+                <zone ulx="1135" uly="36" lrx="1540" lry="408" xml:id="C124timbro"/>
+                <zone ulx="1200" uly="78" lrx="1456" lry="310" xml:id="C124franco"/>
+                <zone ulx="1425" uly="-1" lrx="1572" lry="70" xml:id="C124number"/>
+                <zone ulx="36" uly="340" lrx="73" lry="720" xml:id="C124scrittaverticale"/>
+                <zone ulx="56" uly="908" lrx="727" lry="988" xml:id="C124scrittaorizzontale"/>
+                <zone ulx="705" uly="90" lrx="852" lry="274" xml:id="C124stemma"/>
+                <zone ulx="561" uly="171" lrx="735" lry="906" xml:id="C124luogodata"/>
+                <zone ulx="352" uly="82" lrx="592" lry="914" xml:id="C124msgriga2"/>
+                <zone ulx="88" uly="31" lrx="419" lry="903" xml:id="C124msgriga3"/>
+                <zone ulx="812" uly="390" lrx="1425" lry="536" xml:id="C124destriga1"/>
+                <zone ulx="792" uly="510" lrx="1616" lry="654" xml:id="C124destriga2"/>
+                <zone ulx="796" uly="652" lrx="1607" lry="836" xml:id="C124destriga3"/>
+                <zone ulx="839" uly="799" lrx="1612" lry="1027" xml:id="C124destriga4"/>
+            </surface>
+        </facsimile>
+
+        <!-- DEFINIZIONE -->
+        <text type="cartolina" xml:id="C124">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div facs="#C124F" type="fronte">
+                    <figure>
+                        <graphic url='images/7694-124F.jpg' />
+                        <figDesc>Due donne con un bambino in una stanza cosparsa di fiori primaverili</figDesc>
+                        <head>Primavera in fiore</head>
+                    </figure>
+                </div>
+                <div facs="#C124R" type="retro">
+                    <div type="message" facs="#C124msg">
+                        <opener>
+                            <lb facs="#C124luogodata"></lb><placeName ref="#MO">Modena</placeName>
+                            <date when="1917-07-28">28/07/17</date>
+                        </opener>
+                        <p></p>
+                        <closer>
+                            <lb facs="#C124msgriga2"></lb><s>Cordialissimi saluti</s>
+                        </closer>  
+                        <signed>
+                            <lb facs="#C124msgriga3"></lb><persName ref="#GC"><addName type="alias">Giovannino</addName></persName>
+                        </signed>                            
+                    </div>
+                    <div>
+                        <p>
+                            <stamp facs="#C124scrittaverticale">
+                                Proprietà artistica riservata.
+                            </stamp>
+                            <stamp facs="#C124scrittaorizzontale">
+                                <persName ref="#CF">C. Facchinetti</persName>- Primavera in fiore.
+                                <placeName ref="#FI">Firenze</placeName>, <abbr>Gall.</abbr> d'Arte - Palazzo Strozzi.
+                            </stamp>
+                            <stamp facs="#C124stemma">
+                                [stemma]
+                            </stamp>
+                        </p>   
+                    </div>          
+                    <div type="destination" facs="#C124destinatario">
+                        <p>
+                            <address>
+                                <lb facs="#C124destriga1"></lb><addrLine><choice><abbr>Gent.</abbr><expan>Gentile</expan><abbr>Sig.</abbr><expan>Signora</expan></choice></addrLine>
+                                <lb facs="#C124destriga2"></lb><addrLine><persName ref="#AT"> Antonietta Turtura</persName></addrLine>
+                                <lb facs="#C124destriga3"></lb><addrLine><seg>Via Girolamo Ro&#x17F;i</seg><corr>(Rossi)</corr><seg> 58</seg></addrLine>
+                                <lb facs="#C041destriga3"></lb><addrLine><placeName ref="#RV"> Ravenna</placeName></addrLine>
+                            </address>
+                        </p>
+                        <p>
+                            <!-- stamps -->
+                            <stamp type="postmark" facs="#C124timbro"> 
+                                <unclear reason="faded">
+                                    <placeName ref="#FE">Ferrara</placeName>
+                                </unclear>
+                            </stamp>
+                            <stamp type="postage" facs="#C124franco">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                        </p>
+                        <p>
+                              <idno facs="#C041number">124 </idno>
+                            <idno facs="#C041numdown"> 619-1</idno>                      
+                        </p>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
